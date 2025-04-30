@@ -22,12 +22,12 @@ function Hero() {
   }, []);
 
   const slides = [
-    { id: 1, src: 'vid1.mp4', caption: 'Discover Delicious Recipes', thumbnail: 'pic1.jpg' },
-    { id: 2, src: 'vid2.mp4', caption: 'Share Your Culinary Creations', thumbnail: 'pic2.jpg' },
-    { id: 3, src: 'vid3.mp4', caption: 'Learn from the Best Chefs', thumbnail: 'pic3.jpg' },
+    { id: 1, src: '1.mp4', caption: 'Startup Idea Assistant', thumbnail: 'pic1.jpg' },
+    { id: 2, src: '2.mp4', caption: 'Business Plan Generator', thumbnail: 'pic2.jpg' },
+    { id: 3, src: '3.mp4', caption: 'City-Based Startup Growth Analyzer', thumbnail: 'pic3.jpg' },
   ];
 
-  return (
+  return (  
     <section className="hero-section m-4 neumorphic">
       {/* Main Swiper */}
       <Swiper
