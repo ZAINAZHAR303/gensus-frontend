@@ -86,6 +86,7 @@ function Hero() {
           </SwiperSlide>
         ))}
       </Swiper>
+      
     </section>
   );
 }
