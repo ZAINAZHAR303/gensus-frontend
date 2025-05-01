@@ -3,7 +3,7 @@ import Link from "next/link";
 const Navbar = () => {
   return (
     <nav className="m-4 p-4 rounded-2xl shadow-inner bg-[#f0f0f3] flex justify-between items-center backdrop-blur-md">
-      <div className="text-xl font-bold text-gray-800">🚀 Gensus Startup AI</div>
+      <div className="text-xl font-bold text-gray-800">🚀 Startup Copilot</div>
       <ul className="flex gap-6 text-gray-700 font-medium">
         <li className="hover:scale-105 transition-transform">
           <Link href="/">Home</Link>
