@@ -69,7 +69,7 @@ export default function AboutProblem() {
 
       {/* Unique Value Propositions */}
       <div className="bg-white/40 backdrop-blur rounded-2xl shadow-xl p-8 hover:shadow-blue-100/50 transition-shadow duration-300">
-        <h2 className="text-2xl font-bold mb-6 text-blue-800">Why We're Different</h2>
+        <h2 className="text-2xl font-bold mb-6 text-blue-800">Why We're Different from others</h2>
         <div className="grid sm:grid-cols-2 gap-6">
           {uniquePoints.map(({ icon, text, detail }, i) => (
             <div key={i} className="flex items-start gap-3 p-4 bg-white/60 rounded-lg border border-blue-50 hover:border-blue-200 transition-colors duration-300">
